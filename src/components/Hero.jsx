@@ -15,7 +15,7 @@ const Hero = () => {
                         transition={{ duration: 0.5 }}
                         className="text-gold-600 font-medium mb-4 tracking-wide uppercase"
                     >
-                        Data Scientist
+                        Software Development Engineer I
                     </motion.p>
 
                     <motion.h1
@@ -97,7 +97,7 @@ const Hero = () => {
                             className="absolute bottom-8 -left-4 bg-white p-4 rounded-xl shadow-xl flex items-center gap-3"
                         >
                             <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                            <span className="text-sm font-medium text-gray-900">Open to work</span>
+                            <span className="text-sm font-medium text-gray-900">SDE-I @ CareEdge Analytics</span>
                         </motion.div>
                     </motion.div>
                 </div>

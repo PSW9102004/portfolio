@@ -16,6 +16,25 @@ const About = () => {
                         About <span className="text-gold-500">Me</span>
                     </h2>
 
+                    {/* Work Experience */}
+                    <div className="mb-10 text-left bg-gray-50 border border-gray-200 rounded-2xl p-6">
+                        <h3 className="text-xl font-serif font-bold text-gray-900 mb-1">Work Experience</h3>
+                        <div className="mt-4">
+                            <div className="flex items-start justify-between flex-wrap gap-2">
+                                <div>
+                                    <p className="text-lg font-semibold text-gray-900">Software Development Engineer I (SDE-I)</p>
+                                    <p className="text-gold-600 font-medium">CareEdge Analytics and Advisory Private Limited</p>
+                                    <p className="text-gray-500 text-sm">Thane (W)</p>
+                                </div>
+                                <span className="text-sm font-medium text-white bg-gold-500 px-3 py-1 rounded-full whitespace-nowrap">February 2026 – Present</span>
+                            </div>
+                            <ul className="mt-4 space-y-2 text-gray-600 list-disc list-inside">
+                                <li>Collaborating with a team of 5 to build a real-world <strong>Loan Origination System (LOS)</strong> origination system.</li>
+                                <li>Developing a <strong>Digital Lending Platform</strong> for <strong>National Development Bank, Sri Lanka</strong>.</li>
+                            </ul>
+                        </div>
+                    </div>
+
                     <div className="prose prose-lg text-gray-600 mx-auto">
                         <p className="mb-6">
                             I am a final year B.Tech student at <strong>IIITDM Jabalpur</strong>, specializing in Electronics and Communication Engineering.
